@@ -1,5 +1,6 @@
 # CMFENet
 > **CMFENet: A Cognition-driven Network with Multi-stage Feature Enhancement for Missing	Multimodal Sentiment Analysis**<br>
+>The repository currently contains partial code relevant to the experimental setup. We are committed to releasing the full core codebase after paper acceptance or prior to the camera-ready deadline.
 
 
 
