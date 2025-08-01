@@ -1,4 +1,4 @@
-name: EMT-DLFR
+name: CMFENet
 channels:
   - conda-forge
   - defaults
@@ -194,4 +194,4 @@ dependencies:
     - yacs==0.1.8
     - yapf==0.32.0
     - zipp==3.10.0
-prefix: /home/wxc/anaconda3/envs/EMT-DLFR
+
