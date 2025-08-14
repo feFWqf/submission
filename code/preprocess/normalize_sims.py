@@ -7,12 +7,12 @@ import os
 import pickle
 import numpy as np
 import sys
-sys.path.append('/home/wxc/EMT-DLFR-master')  # 添加项目根目录到sys.path中
+sys.path.append('/home/XXX/EMT-DLFR-master') 
 from config.get_data_root import data_root
 # from ..config.get_data_root import data_root
 
 
-sims_path = os.path.join(data_root, '/home/wxc/MMSA/Datasets/SIMS/Processed/unaligned_39_normalized.pkl')
+sims_path = os.path.join(data_root, '/home/XXX/MMSA/Datasets/SIMS/Processed/unaligned_39_normalized.pkl')
 data = pickle.load(open(sims_path, 'rb'))
 
 # normalize audio and video
@@ -40,7 +40,7 @@ for split in ['train', 'valid', 'test']:
         video_data[i, :v_len] = (video_data[i, :v_len] - train_video_mean) / (train_video_std + eps)
 
 # save
-sims_path_normalized = os.path.join(data_root, '/home/wxc/MMSA/Datasets/SIMS/Processed/unaligned_39.pkl')
+sims_path_normalized = os.path.join(data_root, '/home/XXX/MMSA/Datasets/SIMS/Processed/unaligned_39.pkl')
 pickle.dump(data, open(sims_path_normalized, 'wb'))
 print(f"==>: Normalized sims data is saved at '{sims_path_normalized}'")
 
