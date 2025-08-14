@@ -168,9 +168,9 @@ class MMDataset(Dataset):
 
     def get_feature_dim(self):
         return self.text.shape[2], self.audio.shape[2], self.vision.shape[2]
-    #----------加载缺失数据还是原始数据
+   
     def __getitem__(self, index):
-        if self.args.data_missing:#----------------------------------------------------------------当为真时，返回完整序列和缺失的序列----------------
+        if self.args.data_missing:
             sample = {
                 'text': torch.Tensor(self.text[index]), # [batch_size, 3, 50]
                 'text_m': torch.Tensor(self.text_m[index]), # [batch_size, 3, 50]
