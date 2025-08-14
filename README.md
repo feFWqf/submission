@@ -35,7 +35,6 @@ In recent years, Multimodal Sentiment Analysis (MSA) has become a research hotsp
             |unaligned_39.pkl (a00c73e92f66896403c09dbad63e242d5af756f8)
 ```
 
-- Go to [config/get_data_root.py](config/get_data_root.py) and change the data root to your own path.
 
 - For SIMS, you need to use the following script to generate the normalized version (only normalize audio and visual features).
 
