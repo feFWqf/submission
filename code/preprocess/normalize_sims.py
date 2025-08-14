@@ -7,7 +7,7 @@ import os
 import pickle
 import numpy as np
 import sys
-sys.path.append('/home/XXX/EMT-DLFR-master') 
+sys.path.append('/home/XXX') 
 from config.get_data_root import data_root
 # from ..config.get_data_root import data_root
 
