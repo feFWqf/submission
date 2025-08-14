@@ -1,6 +1,5 @@
 """
-From: https://github.com/yaohungt/Multimodal-Transformer
-Paper: Multimodal Transformer for Unaligned Multimodal Language Sequences
+
 """
 import os
 import sys
