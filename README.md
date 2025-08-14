@@ -21,8 +21,6 @@ In recent years, Multimodal Sentiment Analysis (MSA) has become a research hotsp
 * `pandas==1.5.1`
 * `numpy=1.23.4`
 
-Please refer to [environment.yml](environment.yml) for more details.
-
 
 ## Data Preparation
 - We conduct experiments on three popular MSA datasets, including [CMU-MOSI] and [CH-SIMS]
