@@ -248,7 +248,7 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
     global logger; logger = set_log(args)
-    #args.seeds = [123,1111111, 111] if args.num_seeds is None else list(range(args.seed, args.seed + args.num_seeds))
+   
     args.seeds = [111,1111, 11111] if args.num_seeds is None else list(range(args.seed, args.seed + args.num_seeds))
     args.num_seeds = len(args.seeds)
 
