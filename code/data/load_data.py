@@ -51,7 +51,7 @@ class MMDataset(Dataset):
             self.audio_lengths, self.vision_lengths = text_lengths, text_lengths
         self.audio[self.audio == -np.inf] = 0
 
-        # 如果数据中有缺失，则进行处理
+        
         if self.args.data_missing:
             # Current Support Unaligned Data Missing.
             self.text_m, self.text_length, self.text_mask, self.text_missing_mask = self.generate_m(self.text[:,0,:], self.text[:,1,:], None,
