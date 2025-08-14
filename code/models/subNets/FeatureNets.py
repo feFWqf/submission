@@ -1,6 +1,5 @@
 """
-Ref paper: Tensor Fusion Network for Multimodal Sentiment Analysis
-Ref url: https://github.com/Justin1904/TensorFusionNetworks
+
 """
 import torch
 import torch.nn as nn
