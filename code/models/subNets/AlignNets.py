@@ -9,12 +9,8 @@ __all__ = ['AlignSubNet']
 
 class CTCModule(nn.Module):
     def __init__(self, in_dim, out_seq_len):
-        '''
-        This module is performing alignment from A (e.g., audio) to B (e.g., text).
-        :param in_dim: Dimension for input modality A
-        :param out_seq_len: Sequence length for output modality B
-        From: https://github.com/yaohungt/Multimodal-Transformer
-        '''
+       
+      
         super(CTCModule, self).__init__()
         # Use LSTM for predicting the position from A to B
         self.pred_output_position_inclu_blank = nn.LSTM(in_dim, out_seq_len+1, num_layers=2, batch_first=True) # 1 denoting blank
