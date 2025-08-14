@@ -6,8 +6,7 @@ def dict_to_str(src_dict):
 
 class Storage(dict):
     """
-    A Storage object is like a dictionary except `obj.foo` can be used inadition to `obj['foo']`
-    ref: https://blog.csdn.net/a200822146085/article/details/88430450
+    
     """
     def __getattr__(self, key):
         try:
